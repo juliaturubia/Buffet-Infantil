@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.menu{
+    margin: 0 auto;
+    background-color: #d0c3cf;
+    
+    
+    
+
+}
+
+.img{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.fundo img{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.inicio {
+    text-align: center;
+
+    list-style: none;
+    text-decoration-style: none;
+    
+}
+
+.inicio ul{
+    background-color:#f9e9de;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 0px 10px 0px;
+    box-shadow: 5px 5px rgba(85, 26, 8, 0.202);
+}
+
+.inicio ul li {
+    display: inline;
+    padding: 0px 35px 0px 30px;
+}
+
+.inicio ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 22px;
+    color:#701870;
+    font-family:'Archivo Black', sans-serif;
+}
+
+.logo{
+    text-align: center;
+    margin-right: 750px;
+       
+}
+
+.logo img{
+    position: absolute;
+    width: 230px;
+    top: 58px;
+    
+    
+}
+
+
+
+.fotosinicio{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.fotosinicio img{
+    box-shadow: 5px 5px rgba(85, 26, 8, 0.202);
+    border-radius: 4px;
+    max-width: 100%;
+    width: 70%;
+    height: 350px;
+    border: 3px solid rgb(112, 71, 106);
+    opacity: 80%;
+    margin-bottom: 10px;
+    
+    
+}
+
+.sobre{
+    text-align: center;
+    background-color: #dda9d9;
+    
+}
+
+.sobredois{
+    background: url(img/fundoco26.jfif) 100% 100%; 
+    padding-top: 40px;
+}
+
+.sobredois h2{
+    color: #ebc2eb;
+    font-family:'Archivo Black', sans-serif;
+    font-size: 22px;
+}
+
+.sobredois p{
+    color: #ebc2eb;
+    padding-bottom: 50px;
+    margin: 40px 100px 0px 100px;
+    font-size: 20px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.servicos{
+    background-color: #f8e4f7;
+    
+}
+
+.servicos img{
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.card{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 22px;
+    color:#701870;
+    font-family:'Archivo Black', sans-serif;
+    
+}
+
+.contato{
+    text-align: center;
+    padding: 30px;
+    background-color: #701870;
+    
+}
+.contato img{
+    width: 50px;
+    text-align: center;
+    
+    
+}
+
+.contato h2{
+    font-size: 22px;
+    color:#f9e8f9;
+    font-family:'Archivo Black', sans-serif;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.contato p{
+    font-family:'Archivo Black', sans-serif;
+    font-size: 20px;
+    color:#e3c9e3;
+}
+
+.telefone{
+    padding: 5px;
+
+}
+
+.endereco{
+    padding: 5px;
+
+}
+
+
+@media (min-width: 375px){
+    .fotosinicio img{
+        width: 90%;
+        height: 200px;
+    }
+
+    .servicos{
+        text-align: center;
+        
+    }
+}
+
+@media (min-width: 738px){
+    .fotosinicio img{
+        width: 80%;
+        height: 350px;
+    }
+
+    .servicos{
+        text-align: center;
+        
+    }
+   
+}
+
+@media (min-width: 1230px){
+    .fotosinicio img{
+        width: 70%;
+        height: 350px;
+        
+    }
+
+    .servicos{
+        text-align: center;
+        
+    }
+    
+   
+}
